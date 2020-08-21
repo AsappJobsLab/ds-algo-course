@@ -29,12 +29,12 @@ public class waveFormSorting {
         int arr[] = {10, 5, 6, 3, 2, 20, 100, 80};
         System.out.println("array element before rearrangement = " + Arrays.toString(arr));
         SimpleWaveFormSorting(arr);
-        System.out.println("array element before rearrangement = " + Arrays.toString(arr));
+        System.out.println("array element after rearrangement = " + Arrays.toString(arr));
 
         int anotherArr[] = {20, 10, 8, 6, 4, 2};
         System.out.println("array element before rearrangement = " + Arrays.toString(anotherArr));
         EfficientWaveFormSorting(anotherArr);
-        System.out.println("array element before rearrangement = " + Arrays.toString(anotherArr));
+        System.out.println("array element after rearrangement = " + Arrays.toString(anotherArr));
     }
 
     /*
